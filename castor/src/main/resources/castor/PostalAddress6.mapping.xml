@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping>
+	<class name="com.evolvus.training.oxm.domain.PostalAddress6">
+
+		<map-to xml="PstlAdr" />
+
+		<field name="addressType" type="string">
+			<bind-xml name="AdrTp" node="element" />
+		</field>
+
+		<field name="department" type="string">
+			<bind-xml name="Dept" node="element" />
+		</field>
+
+		<field name="subDepartment" type="string">
+			<bind-xml name="SubDept" node="element" />
+		</field>
+
+		<field name="streetName" type="string">
+			<bind-xml name="StrtNm" node="element" />
+		</field>
+
+		<field name="buildingNumber" type="string">
+			<bind-xml name="BldgNb" node="element" />
+		</field>
+
+		<field name="postCode" type="string">
+			<bind-xml name="PstCd" node="element" />
+		</field>
+
+		<field name="townName" type="string">
+			<bind-xml name="TwnNm" node="element" />
+		</field>
+
+		<field name="countrySubDivision" type="string">
+			<bind-xml name="CtrySubDvsn" node="element" />
+		</field>
+
+		<field name="country" type="string">
+			<bind-xml name="Ctry" node="element" />
+		</field>
+
+		<field name="addressLine1" type="string">
+			<bind-xml name="AdrLine" node="element" />
+		</field>
+
+		<field name="addressLine2" type="string">
+			<bind-xml name="AdrLine" node="element" />
+		</field>
+
+		<field name="addressLine3" type="string">
+			<bind-xml name="AdrLine" node="element" />
+		</field>
+
+		<field name="addressLine4" type="string">
+			<bind-xml name="AdrLine" node="element" />
+		</field>
+
+		<field name="addressLine5" type="string">
+			<bind-xml name="AdrLine" node="element" />
+		</field>
+
+		<field name="addressLine6" type="string">
+			<bind-xml name="AdrLine" node="element" />
+		</field>
+
+		<field name="addressLine7" type="string">
+			<bind-xml name="AdrLine" node="element" />
+		</field>
+
+	</class>
+</mapping>

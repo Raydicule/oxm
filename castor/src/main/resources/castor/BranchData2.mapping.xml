@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping>
+	<class name="com.evolvus.training.oxm.domain.BranchData2">
+
+		<map-to xml="BrnchId" />
+
+		<field name="identification" type="string">
+			<bind-xml name="Id" node="element" />
+		</field>
+
+		<field name="name" type="string">
+			<bind-xml name="Nm" node="element" />
+		</field>
+
+		<field name="postalAddress" type="com.evolvus.training.oxm.domain.PostalAddress6">
+			<bind-xml name="PstlAdr" node="element" />
+		</field>
+		
+	</class>
+</mapping>

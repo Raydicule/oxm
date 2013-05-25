@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping>
+	<class name="com.evolvus.training.oxm.domain.ContactDetails2">
+
+		<map-to xml="CtctDtls" />
+
+		<field name="nmPrfx" type="string">
+			<bind-xml name="NmPrfx" node="element" />
+		</field>
+
+		<field name="nm" type="string">
+			<bind-xml name="Nm" node="element" />
+		</field>
+
+		<field name="phneNb" type="string">
+			<bind-xml name="PhneNb" node="element" />
+		</field>
+
+		<field name="mobNb" type="string">
+			<bind-xml name="MobNb" node="element" />
+		</field>
+
+		<field name="faxNb" type="string">
+			<bind-xml name="FaxNb" node="element" />
+		</field>
+
+		<field name="emailAdr" type="string">
+			<bind-xml name="EmailAdr" node="element" />
+		</field>
+
+		<field name="othr" type="string">
+			<bind-xml name="Othr" node="element" />
+		</field>
+
+	</class>
+</mapping>
